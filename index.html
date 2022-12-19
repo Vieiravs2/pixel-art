@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+    <title>Matheus Emidio - Pixels Art</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="main-title">ARTE COM PIXELS</h1>
+    </header>
+
+    <main>
+        <h1 id="title">Paleta de Cores</h1>
+        <p class="paragraphCenter">Escolha a sua cor e comece a pintar os pixels</p>
+        <div id="control-cor">
+            <ul id="color-palette">
+                <li class="color">
+                <li class="color">
+                <li class="color">
+                <li class="color">
+            </ul>
+            <div class="buttons">
+                <button id="button-random-color">Cores aleatórias</button>
+                <button id="clear-board">Limpar</button>
+            </div>
+        </div>  
+
+        <div class="buttonsinput">
+            <label for="board-size">Tamanho<input id="board-size" type="number" min="1" max="50"></label>
+            <button id="generate-board">VQV</button>
+            <p id="mensagem-de-erro"></p>
+        </div>
+        
+        <div id="pixel-board">
+            
+        </div>
+        
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Pixel Craft';
+    src: url('./fonts/PixelCraft-2Odxo.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VCR OSD';
+    src: url('./fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/wallpaperDesfoque.jpg);
+    background-size: cover;
+}
+
+#main-title {
+    font-family: 'VCR OSD', monospace;
+    font-size: 50px;
+    font-weight: 100;
+    color: black;
+    background-color: white;
+    width: 500px;
+    margin: 40px auto 0;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+}
+
+.color {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#control-cor {
+    text-align: center;
+    margin: 0 auto 20px;
+    border: 10px inset #000000;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 400px;
+}
+
+.buttonsinput {
+    width: 400px;
+    margin: 30px auto;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttonsinput input {
+    width: 50px;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 15px;
+    font-family: monospace;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+
+#pixel-board {
+    margin-top: 15px;
+    text-align: center;
+}
+  
+#color-palette {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px auto 5px;
+}
+
+.buttons {
+    text-align: center;
+    display: flex;
+}
+
+.buttonsinput {
+    text-align: center;
+}
+  
+#button-random-color {
+    width: 200px;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 5px 10px;
+    cursor: pointer;
+}
+
+#clear-board {
+    margin-top: 20px;
+    width: 200px;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 5px 10px;
+    cursor: pointer;
+}
+
+.paragraphCenter {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.game {
+    width: 50%;
+    height: 560px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 2%;
+    background-color: blue;
+}
+
+.pixel-board {
+    background-color: aliceblue;
+    /* height: 95%; */
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+.line {
+    vertical-align: middle;
+}
+
+.pixel {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: crosshair;
+}
